@@ -1,0 +1,21 @@
+2026-03-28 15:15:54,106 | __main__ | INFO | n/a | =======Post Content Generation API========
+2026-03-28 15:16:05,847 | __main__ | INFO | 350eb4e6-2d81-4a68-90f5-cad92a4a8adf | HTTP Request: GET http://localhost:9001/ completed in 0.01ms
+2026-03-28 15:16:10,146 | __main__ | INFO | f2164089-eeda-4f02-9dcf-a70f99703b6f | HTTP Request: GET http://localhost:9001/favicon.ico completed in 0.00ms
+2026-03-28 15:16:33,371 | __main__ | INFO | 80e3edd1-c51e-41fe-8c7f-77f6d3459b51 | HTTP Request: GET http://localhost:9001/docs completed in 0.00ms
+2026-03-28 15:16:35,288 | __main__ | INFO | 50a97434-7cd7-4576-92b3-dbeb9414cf5e | HTTP Request: GET http://localhost:9001/openapi.json completed in 0.01ms
+2026-03-28 15:17:04,187 | services.generation | INFO | 0cbb966d-00bb-4e9f-9217-5167ecb51e31 | Finding Trending Topics...
+2026-03-28 15:17:08,496 | httpx | INFO | 0cbb966d-00bb-4e9f-9217-5167ecb51e31 | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-28 15:17:08,696 | __main__ | INFO | 0cbb966d-00bb-4e9f-9217-5167ecb51e31 | HTTP Request: POST http://localhost:9001/api/generate?context=Machine%20Learning&platform=Linkedin completed in 5.49ms
+2026-03-28 15:17:25,529 | services.generation | INFO | be40cb1b-c90d-46aa-bf33-422b822d9543 | Content Generation started...
+2026-03-28 15:17:29,078 | httpx | INFO | be40cb1b-c90d-46aa-bf33-422b822d9543 | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-28 15:17:29,078 | services.generation | INFO | be40cb1b-c90d-46aa-bf33-422b822d9543 | Content Generated!!
+2026-03-28 15:17:29,078 | services.generation | INFO | be40cb1b-c90d-46aa-bf33-422b822d9543 | 🌐 Artificial Intelligence is revolutionizing industries, but it’s facing an important challenge: bias. Bias in AI happens when algorithms make unfair decisions based on incomplete or prejudiced data. 
+
+📊 Imagine algorithms used in hiring processes, loan approvals, or predictive policing. If the training data reflects societal inequalities, AI can unintentionally magnify them. This raises ethical concerns that affect real lives and communities. 
+
+💡 How can we address these challenges? Ethical practices like diverse training datasets, transparency in AI design, and regular audits are key to reducing bias and ensuring fairness. Collaboration between developers, policy-makers, and ethicists is essential to create systems that benefit everyone.
+
+It’s not just about technology; it’s about responsibility. How can we shape AI to reflect the best of humanity rather than its flaws? Let's discuss. 🤔 
+
+#ArtificialIntelligence #EthicalAI #AIBias #Inclusion #ResponsibleTechnology #SocialImpact #Innovation
+2026-03-28 15:17:29,084 | __main__ | INFO | be40cb1b-c90d-46aa-bf33-422b822d9543 | HTTP Request: POST http://localhost:9001/api/generate?topic=Ethical%20concerns%20surrounding%20AI%20bias%20and%20its%20societal%20impact&platform=Linkedin completed in 3.57ms

@@ -18,6 +18,15 @@ class Config:
             azure_endpoint=self.openai_api_base,
             api_version=self.openai_api_version,
         )
+    
+    def db_creds(self):
+        return {
+            "host": os.getenv("DB_HOST"),
+            "port": os.getenv("DB_PORT"),
+            "user": os.getenv("DB_USER"),
+            "password": os.getenv("DB_PASSWORD"),
+            "database": os.getenv("DB_NAME")
+        }
 
 
 config = Config()

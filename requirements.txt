@@ -1,2 +1,5 @@
 fastapi
 google-api-python-client
+psycopg2-binary
+azure-ai
+openai
