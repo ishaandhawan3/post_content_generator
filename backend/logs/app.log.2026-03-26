@@ -1,0 +1,42 @@
+2026-03-25 13:58:19,003 | httpx | INFO | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-25 14:00:31,282 | httpx | INFO | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-25 14:01:10,073 | httpx | INFO | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-25 14:02:19,313 | httpx | INFO | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-25 14:02:44,612 | httpx | INFO | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 00:43:48,263 | api.routes | INFO | Health check endpoint called
+2026-03-26 00:44:37,186 | httpx | INFO | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 00:57:37,923 | httpx | INFO | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 00:58:10,620 | httpx | INFO | n/a | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 01:09:12,138 | httpx | INFO | n/a | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 01:09:32,907 | httpx | INFO | n/a | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 01:10:01,963 | httpx | INFO | 025e30ed-47f8-4912-968f-cf133feeddc2 | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 01:10:01,978 | __main__ | INFO | 025e30ed-47f8-4912-968f-cf133feeddc2 | HTTP Request: POST http://localhost:9001/api/generate?context=claude%20code&platform=Linkedin completed in 5.05ms
+2026-03-26 01:13:48,289 | __main__ | INFO | n/a | ==============Post Content Generation API==============
+2026-03-26 01:13:50,228 | __main__ | INFO | n/a | ==============Post Content Generation API==============
+2026-03-26 01:14:04,511 | __main__ | INFO | n/a | ==============Post Content Generation API==============
+2026-03-26 01:14:44,609 | __main__ | INFO | n/a | =======Post Content Generation API========
+2026-03-26 01:20:23,956 | httpx | INFO | 5cf8ea40-4fee-44af-bb6b-05a63646ed4f | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 01:20:23,992 | __main__ | INFO | 5cf8ea40-4fee-44af-bb6b-05a63646ed4f | HTTP Request: POST http://localhost:9001/api/generate?topic=claude%20ai&platform=Linkedin completed in 8.91ms
+2026-03-26 01:23:49,786 | __main__ | INFO | n/a | =======Post Content Generation API========
+2026-03-26 01:24:44,260 | __main__ | INFO | n/a | =======Post Content Generation API========
+2026-03-26 12:49:35,994 | __main__ | INFO | n/a | =======Post Content Generation API========
+2026-03-26 12:50:00,576 | services.generation | INFO | 1740e5b9-feed-44ce-8c2a-f06129acf0d2 | Content Generation started...
+2026-03-26 12:50:09,378 | httpx | INFO | 1740e5b9-feed-44ce-8c2a-f06129acf0d2 | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 12:50:09,434 | __main__ | INFO | 1740e5b9-feed-44ce-8c2a-f06129acf0d2 | HTTP Request: POST http://localhost:9001/api/generate?topic=claude%20ai&platform=Linkedin completed in 9.29ms
+2026-03-26 13:00:48,935 | services.generation | INFO | 6379a5af-8751-400e-b0ef-be3faca4f716 | Content Generation started...
+2026-03-26 13:00:58,125 | httpx | INFO | 6379a5af-8751-400e-b0ef-be3faca4f716 | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 13:00:58,337 | __main__ | INFO | 6379a5af-8751-400e-b0ef-be3faca4f716 | HTTP Request: POST http://localhost:9001/api/generate?topic=claude%20ai&platform=Linkedin completed in 9.53ms
+2026-03-26 13:04:40,902 | __main__ | INFO | n/a | =======Post Content Generation API========
+2026-03-26 13:05:02,734 | services.generation | INFO | 6cde70ec-e8fc-4bb9-9085-8c7f4009e147 | Content Generation started...
+2026-03-26 13:05:10,215 | httpx | INFO | 6cde70ec-e8fc-4bb9-9085-8c7f4009e147 | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 13:05:10,245 | services.generation | INFO | 6cde70ec-e8fc-4bb9-9085-8c7f4009e147 | Content Generated!!
+2026-03-26 13:05:10,276 | __main__ | INFO | 6cde70ec-e8fc-4bb9-9085-8c7f4009e147 | HTTP Request: POST http://localhost:9001/api/generate?topic=claude%20ai&platform=Linkedin completed in 7.97ms
+2026-03-26 13:05:33,081 | services.generation | INFO | 298a4dba-56f0-4910-8619-929a5c23352b | Content Generation started...
+2026-03-26 13:05:43,542 | httpx | INFO | 298a4dba-56f0-4910-8619-929a5c23352b | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 13:05:43,557 | services.generation | INFO | 298a4dba-56f0-4910-8619-929a5c23352b | Content Generated!!
+2026-03-26 13:05:43,622 | __main__ | INFO | 298a4dba-56f0-4910-8619-929a5c23352b | HTTP Request: POST http://localhost:9001/api/generate?topic=claude%20ai&platform=Linkedin completed in 10.56ms
+2026-03-26 14:19:26,178 | services.generation | INFO | 93b76907-c437-48f9-af7f-4c651fda6970 | Content Generation started...
+2026-03-26 14:19:37,941 | openai._base_client | INFO | 93b76907-c437-48f9-af7f-4c651fda6970 | Retrying request to /chat/completions in 0.459179 seconds
+2026-03-26 14:19:57,206 | httpx | INFO | 93b76907-c437-48f9-af7f-4c651fda6970 | HTTP Request: POST https://open-ai-dionce-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2026-03-26 14:19:57,271 | services.generation | INFO | 93b76907-c437-48f9-af7f-4c651fda6970 | Content Generated!!
+2026-03-26 14:19:57,316 | __main__ | INFO | 93b76907-c437-48f9-af7f-4c651fda6970 | HTTP Request: POST http://localhost:9001/api/generate?topic=claude%20ai&platform=Linkedin completed in 31.35ms
